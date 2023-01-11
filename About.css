@@ -41,7 +41,7 @@ html, body {
     }/*end of header*/
 
 .nav { /*start of navigation bar*/
-    background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/poster.jfif");
+    background-image: url("poster.jfif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -59,7 +59,7 @@ html, body {
     }/*end of navigation bar*/
 
 .explanation {
-    background-color: violet;
+    background-color: #7f00ff;
     
 }
 
