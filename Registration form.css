@@ -1,0 +1,145 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Times;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0px;
+}
+
+.header { /*start of header*/
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 5px;
+    width: inherit;
+}
+
+.icon:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link {
+    text-decoration: none;
+}
+
+    .link:hover {
+        color: #FF2400;
+        text-decoration: none;
+    }/*end of header*/
+
+.nav { /*start of navigation bar*/
+    background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/poster.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+    .nav h1, .nav p {
+        color: inherit;
+        padding-top: 18px;
+        padding-left: 90px;
+        color: #000000;
+    }
+
+    .nav p {
+        color: #000000;
+        font-size: 19px;
+    }/*end of navigation bar*/
+
+.container{
+  background-color: #000000;
+  width:100%;
+  margin:0;
+}
+
+.container h1, .container p{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.fo{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+
+.fs {
+  border-style : hidden;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+.la{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.in{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border: 1px solid;
+}
+
+.in2 {
+  display: block;
+  width: 80px;
+  margin: 10px auto;
+  height: 2em;
+  font-size: 1.1rem;
+  text-align:center;
+}
+
+.footer { /*start of footer*/
+    background-color: #808080;
+    color: #ffffff;
+    min-height: 550px;
+}
+
+ul {
+    list-style: none;
+    height: 60%;
+    width: 100%
+}
+
+.footer ul {
+    padding-right: 40px;
+    margin-top: 150px;
+}
+
+.footer li {
+    padding: 20px 20px;
+}
+
+a {
+    color: inherit;
+}
+
+.contact a:hover {
+    color: #C8A2C8;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.7;
+    padding: 0;
+}
+
+strong {
+    padding-left: 20px;
+}/*end of footer*/

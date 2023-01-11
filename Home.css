@@ -1,0 +1,216 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*{margin: 0; padding: 0;}
+
+.header{/*start of header*/
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 5px;
+  width: inherit;
+}
+
+.up {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.up:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.icon:hover{
+  text-decoration:none;
+  color: inherit;
+}
+
+.link{text-decoration:none;}
+
+.link:hover{
+  color: #FF2400;
+  text-decoration:none;
+}/*end of header*/
+
+h4{
+  border: 2px solid #ffffff;
+}
+
+.first{
+  background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/OIP.jpeg");
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 750px;
+}
+
+.first h1 {
+  padding-top: 325px;
+}
+
+.first h1,.first p{
+  margin: 1em auto;
+}
+
+.title,.title1{
+  text-align: center;
+  font-size: 9px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame{
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  box-sizing: content-box;
+  width:100%;
+  background-color: #ffa500;
+  margin-top: 20px;
+}
+
+.title h2{
+  margin-top: 20px;
+}
+
+.container {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.border1{ /*our services*/
+  border: 2px solid #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: grey;
+  padding: 7%;
+  width: 250px;
+}
+
+.thumb1, .thumb2, .thumb3{
+  border-radius: 50%;
+  width: 75px;
+  height:75px;
+  margin-bottom: 40px;
+}/*end of our services*/
+
+.container1{
+  display: block;
+  background-color: #808080;
+  color: #ffffff;
+}
+
+video{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title1{
+  background-color: #00008B;
+  color: #ffffff;
+}
+
+.container2{
+  display: flex;
+  background-color: #00008B;
+  color: #ffffff;
+  min-height: 550px;
+  gap: 75px;
+  flex-wrap:wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content:center;
+}
+
+.title1 h2{
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+.border { /*properties*/
+    border: 2px solid #ffffff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #808080;
+    min-width: 250px;
+    min-height: 400px;
+    max-width: 250px;
+    max-height: 400px;
+    padding: 0;
+}
+
+.left{margin-left:35px;}
+
+.border h3{
+  text-align: left;
+}
+
+.listing{
+  width: 100%;
+  height:75%;
+}
+
+.footer{/*start of footer*/
+  background-color: #808080;
+  color: #ffffff;
+  min-height: 550px;
+}
+
+ul{
+  list-style: none;
+  height: 60%;
+  width: 100%
+}
+
+.footer ul{
+  padding-right: 40px;
+  margin-top: 150px;
+}
+
+.footer li{
+  padding: 20px 20px;
+}
+
+a{
+  color: inherit;
+}
+
+.contact a:hover{
+  color: #C8A2C8;
+}
+
+::placeholder{
+  color: #000;
+  opacity: 0.7;
+  padding: 0;
+}
+
+strong{
+  padding-left: 20px;
+}/*end of footer*/

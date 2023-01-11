@@ -1,0 +1,132 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Times;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0,0,0,5px;
+}
+
+.header { /*start of header*/
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 5px;
+    width: inherit;
+}
+
+.icon:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link {
+    text-decoration: none;
+}
+
+    .link:hover {
+        color: #FF2400;
+        text-decoration: none;
+    }/*end of header*/
+
+.nav { /*start of navigation bar*/
+    background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/poster.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+    .nav h1, .nav p {
+        color: inherit;
+        padding-top: 18px;
+        padding-left: 90px;
+        color: #000000;
+    }
+
+    .nav p {
+        color: #000000;
+        font-size: 19px;
+    }/*end of navigation bar*/
+
+.explanation {
+    background-color: violet;
+    
+}
+
+.hi{
+    padding:0;
+    margin:0;
+}
+
+.vid{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  padding:0;
+
+}
+
+.bio{
+  padding: 50px;
+  width: 100%;
+ 
+}
+
+.frame {
+    border: 2px solid #ffd700;
+    border-radius: 30px;
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #ffa500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer { /*start of footer*/
+    background-color: #808080;
+    color: #ffffff;
+    min-height: 550px;
+}
+
+ul {
+    list-style: none;
+    height: 60%;
+    width: 100%
+}
+
+.footer ul {
+    padding-right: 40px;
+    margin-top: 150px;
+}
+
+.footer li {
+    padding: 20px 20px;
+}
+
+a {
+    color: inherit;
+}
+
+.contact a:hover {
+    color: #C8A2C8;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.7;
+    padding: 0;
+}
+
+strong {
+    padding-left: 20px;
+}/*end of footer*/
