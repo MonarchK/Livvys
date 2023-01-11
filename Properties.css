@@ -11,7 +11,7 @@ html, body{
 
 *{margin: 0; padding: 0;}
 
-.container-fluid{margin: 0; padding: 0,0,0,5px;}
+.container-fluid{margin: 0; padding: 0px;}
 
 .header{/*start of header*/
   background-color: #000000;
@@ -33,7 +33,7 @@ html, body{
 }/*end of header*/
 
 .nav{/*start of navigation bar*/
-  background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/poster.jfif");
+  background-image: url("poster.jfif");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -103,7 +103,7 @@ html, body{
 
 .border {
     border: 2px solid #ffffff;
-    background-color: grey;
+    background-color: #808080;
     min-width: 350px;
     min-height: 440px;
     max-width: 350px;
@@ -132,7 +132,7 @@ html, body{
 }
 
 .page{
-  border: 2px solid red;
+  border: 2px solid #ff0000;
   border-radius: 50%;
   width:44px;
   height: 44px;
@@ -157,7 +157,7 @@ html, body{
 }
 
 .tc,.mv{
-  border: 2px solid red;
+  border: 2px solid #ff0000;
   padding:15px;
   height: 300px;
   width: 40%;
