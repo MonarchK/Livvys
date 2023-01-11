@@ -52,7 +52,7 @@ h4{
 }
 
 .first{
-  background-image: url("C:/Users/richa/Desktop/LivvyProperties/IMG/OIP.jpeg");
+  background-image: url("OIP.jpeg");
   display: grid;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -106,7 +106,7 @@ h4{
   border: 2px solid #ffffff;
   margin-top: 10%;
   margin-bottom: 10%;
-  background-color: grey;
+  background-color: #808080;
   padding: 7%;
   width: 250px;
 }
